@@ -14,7 +14,6 @@ const Blog = () => {
   const [error, setError] = useState("");
 
   const { socket } = useSelector((state: RootStore) => state);
-  const dispatch = useDispatch();
 
   useEffect(() => {
     if (!id) return;

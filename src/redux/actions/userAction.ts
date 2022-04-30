@@ -3,7 +3,7 @@ import { IAuth, IAuthType, AUTH } from "../types/authType";
 import { IAlertType, ALERT } from "../types/alertType";
 
 import { checkImage, imageUpload } from "../../utils/ImageUpload";
-import { getAPI, patchAPI, postAPI } from "../../utils/FetchData";
+import { getAPI, patchAPI } from "../../utils/FetchData";
 import { checkPassword } from "../../utils/Valid";
 import { GET_OTHER_INFO, IGetOtherInfoType } from "../types/profileType";
 import { checkTokenExp } from "../../utils/checkTokenExp";

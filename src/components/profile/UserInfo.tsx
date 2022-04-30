@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { resetPassword, updateUser } from "../../redux/actions/userAction";
 import {
@@ -41,7 +41,7 @@ const UserInfo = () => {
     }
   };
 
-  const { name, account, avatar, password, cf_password } = user;
+  const { name, avatar, password, cf_password } = user;
 
   const handleSubmit = (e: FormSubmit) => {
     e.preventDefault();

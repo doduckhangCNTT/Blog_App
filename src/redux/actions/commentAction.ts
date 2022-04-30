@@ -75,7 +75,7 @@ export const replyComment =
       dispatch({ type: ALERT, payload: { loading: true } });
 
       // const res = await postAPI("reply_comment", data, token);
-      const res = await postAPI("reply_comment", data, access_token);
+      await postAPI("reply_comment", data, access_token);
       // console.log("RES: ", res);
 
       // dispatch({
